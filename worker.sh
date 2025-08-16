@@ -2,6 +2,6 @@
     sudo apt-get update
     sudo apt-get install -y apache2
     sudo rm -rf /var/www/html/*
-    sudo cp -r /vagrant/html/* /var/www/html/
+    sudo cp -r /vagrant/www/* /var/www/html/
     sudo systemctl restart apache2
     sudo systemctl enable apache2
